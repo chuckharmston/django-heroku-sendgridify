@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='django-heroku-sendgridify',
-    version='0.1',
+    version='0.1.1',
     description=(
         'Automatic email configuration for the Django/Heroku/SendGrid stack'
     ),
