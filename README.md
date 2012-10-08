@@ -10,6 +10,7 @@ Automatic email configuration for the Django/Heroku/SendGrid stack
 
 In your Django settings module:
 
-`EMAIL_HOST, EMAIL_HOST_USER, EMAIL_HOST_PASSWORD, EMAIL_PORT, EMAIL_USE_TLS = sendgridify()`
+    from sendgrifiy import sendgridify
+    EMAIL_HOST, EMAIL_HOST_USER, EMAIL_HOST_PASSWORD, EMAIL_PORT, EMAIL_USE_TLS = sendgridify()
 
-Best README ever.
+That's it. Best README ever.
